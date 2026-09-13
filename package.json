@@ -1,0 +1,22 @@
+{
+  "name": "sissala-connect",
+  "version": "0.1.0",
+  "description": "Production-grade platform connecting Sissala communities, professionals, and opportunities",
+  "private": true,
+  "workspaces": [
+    "packages/backend",
+    "packages/frontend"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"packages/**/*.{ts,tsx,json,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "turbo": "^1.10.0",
+    "typescript": "^5.2.0"
+  }
+}
